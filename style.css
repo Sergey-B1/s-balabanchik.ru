@@ -1,0 +1,40 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.telephone {
+  font-weight:400;
+  font-size: 24px;
+  color: #ffffff;
+}
+.main-header {
+  background: #191919;
+}
+.logo {
+  width: 100px;
+}
+.main-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.menu-item {
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu-item:hover {
+  color: #c7c6c6;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
