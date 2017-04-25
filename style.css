@@ -4,13 +4,14 @@
   padding: 0;
 }
 body {
-  background: #fff;
+  background: #000;
 }
 .block {
   height: 3266px;
   width: 1100px;
   margin: 0 auto;
   overflow: hidden;
+  background: #fff;
 }
 .main-header {
   display: flex;
@@ -24,13 +25,13 @@ body {
   padding-top: 70px;
 
 }
-.wrapper {
+.main-header__wrapper {
   width: 666px;
   height: 400px;
   margin: 0 auto;
   transform: skewY(3.6deg);
 }
-.main-section {
+.main-header__wrapper--main-section {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -70,10 +71,10 @@ body {
 .menu-item:hover {
   color: #c7c6c6;
 }
-.center1 {
+.center {
   width: 1170px;
 }
-.img {
+.center__block {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -81,25 +82,26 @@ body {
   background: #191919;
   overflow: hidden;
 }
-.img1 {
+.center__block1 {
   position: relative;
   height: 370px;
   z-index: 1000;
 }
-.img1 img {
+.center__block1 img {
   width: 1920px;
   height: 500px;
   transform: skewY(3.6deg);
   margin-top: -68px;
 }
 /* welcome-were open*/
-.img2 {
+.center__block2 {
   position: relative;
   height: 350px;
   transform: skewY(3.6deg);
   margin-top: -34px;
   z-index: 999;
 }
+
 .wrapper2 {
   width: 666px;
   height: 400px;
@@ -141,30 +143,54 @@ body {
   line-height: 12px;
   margin-bottom: 5px;
 }
-
 /* welcome-were open*/
-.img3 {
+/*artists*/
+.center__block3 {
   position: relative;
-  height: 350px;
-  z-index: 999;
+  height: 400px;
+  margin-bottom: -50px;
+  z-index: 998;
+  overflow: hidden;
 }
-.img4 {
+.center__block3--img3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  position: absolute;
+  background: red;
+  width: 1100px;
+  height: 350px;
+
+}
+.img3-block1 {
+  background: yellow;
+  width: 1100px;
+  height: 275px;
+}
+.img3-block2 {
+  background: blue;
+  width: 1100px;
+  height: 60px;
+}
+/*artists*/
+.center__block4 {
   position: relative;
   height: 350px;
   z-index: 1000;
 }
-.img5 {
+.center__block5 {
   position: relative;
   height: 690px;
   z-index: 999;
 }
-.img6 {
+.center__block6 {
   position: relative;
   height: 350px;
   transform: skewY(3.6deg);
   z-index: 1000;
 }
-.img7 {
+.center__block7 {
   position: relative;
   height: 300px;
   z-index: 999;
