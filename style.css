@@ -7,8 +7,8 @@ body {
   background: #000;
 }
 .block {
-  height: 3266px;
-  width: 1100px;
+  height: 5700px;
+  width: 1920px;
   margin: 0 auto;
   overflow: hidden;
   background: #fff;
@@ -17,17 +17,17 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
   background: #191919;
   transform: skewY(-3.6deg);
-  height: 250px;
+  height: 410px;
   margin-top: -90px;
   padding-top: 70px;
 
 }
 .main-header__wrapper {
-  width: 666px;
-  height: 400px;
+  width: 1170px;
+  height: 600px;
   margin: 0 auto;
   transform: skewY(3.6deg);
 }
@@ -39,7 +39,7 @@ body {
 .telephone {
   font-weight: 400;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 24px;
   font-style:
 }
 .socials img {
@@ -47,8 +47,8 @@ body {
   height: 37px;
 }
 .logo img {
-  width: 160px;
-  height: 100px;
+  width: 380px;
+  height: auto;
   margin: 40px 40px;
 }
 .menu-section {
@@ -60,7 +60,10 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 550px;
+  width: 900px;
+}
+.menu>a{
+  font-size: 19px;
 }
 .menu-item {
   color: #fff;
@@ -72,7 +75,7 @@ body {
   color: #c7c6c6;
 }
 .center {
-  width: 1170px;
+  width: 1920px;
 }
 .center__block {
   display: flex;
@@ -84,27 +87,27 @@ body {
 }
 .center__block1 {
   position: relative;
-  height: 370px;
+  height: 666px;
   z-index: 1000;
 }
 .center__block1 img {
   width: 1920px;
-  height: 500px;
+  height: 900px;
   transform: skewY(3.6deg);
-  margin-top: -68px;
+  margin-top: -70px;
 }
 /* welcome-were open*/
 .center__block2 {
   position: relative;
-  height: 350px;
+  height: 600px;
   transform: skewY(3.6deg);
-  margin-top: -34px;
+  margin-top: 10px;
   z-index: 999;
 }
 
 .wrapper2 {
-  width: 666px;
-  height: 400px;
+  width: 1170px;
+  height: 600px;
   margin: 130px auto;
   transform: skewY(-3.6deg);
   font-size: 8px;
@@ -116,18 +119,18 @@ body {
   justify-content: space-between;
 }
 .welcome {
-  width: 326px;
-  height: 160px;
+  width: 560px;
+  height: 250px;
 }
 .wereopen {
-  width: 326px;
-  height: 160px;
+  width: 560px;
+  height: 250px;
 }
 .welcome__h1 {
-  font-size: 21px;
+  font-size: 48px;
   color: #fff;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .wereopen__h1 {
   align-items: center;
@@ -135,19 +138,26 @@ body {
   justify-content: space-between;
 }
 .wereopen__h1>div>img {
-  margin-right: 10px;
+  margin-right: 15px;
+  width: 180px;
+  height: 150px;
 }
 .h1--inf,
 .h1--inf div {
   text-align: justify;
-  line-height: 12px;
+  line-height: 22px;
   margin-bottom: 5px;
+  font-size: 15px;
 }
 /* welcome-were open*/
 /*artists*/
 .center__block3 {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
   position: relative;
-  height: 400px;
+  height: 670px;
+  width: 1920px;
   margin-bottom: -50px;
   z-index: 998;
   overflow: hidden;
@@ -157,21 +167,50 @@ body {
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
-  position: absolute;
-  background: red;
-  width: 1100px;
-  height: 350px;
-
+  width: 1170px;
+  height: 670px;
+  margin: 0 auto;
 }
 .img3-block1 {
-  background: yellow;
-  width: 1100px;
-  height: 275px;
+  display: flex;
+  align-content: center;
+  width: 1170px;
+  height: 480px;
 }
 .img3-block2 {
-  background: blue;
-  width: 1100px;
-  height: 60px;
+  width: 1170px;
+  height: 180px;
+}
+.img3-block1__artists {
+  width: 600px;
+  height: 500px;
+}
+.img3-block1__artists--h1 {
+  font-size: 48px;
+  color: #000;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.img3-block1__artists--p {
+  text-align: justify;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  width: 450px;
+  height: 130px;
+}
+.img3-block1__artists--social {
+  margin-top: 10px;
+}
+.social-artists__1>img {
+  width: 20px;
+  height: 20px;
+  margin-left: 0;
+  background-repeat: no-repeat;
+}
+.img3-block1__photo>img {
+  width: 600px;
+  height: auto;
 }
 /*artists*/
 .center__block4 {
