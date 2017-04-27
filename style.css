@@ -8,7 +8,7 @@ body {
 }
 .block {
   height: 5700px;
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   background: #fff;
@@ -160,6 +160,7 @@ body {
   height: 670px;
   width: 1920px;
   margin-bottom: -50px;
+  margin-top: -10px;
   z-index: 998;
   overflow: hidden;
 }
@@ -185,6 +186,7 @@ body {
 .img3-block1__artists {
   width: 600px;
   height: 500px;
+  margin-top: 50px
 }
 .img3-block1__artists--h1 {
   font-size: 48px;
@@ -194,14 +196,23 @@ body {
 }
 .img3-block1__artists--p {
   text-align: justify;
-  line-height: 22px;
-  margin-bottom: 5px;
-  font-size: 15px;
-  width: 450px;
-  height: 130px;
+  margin-bottom: 0;
+  font-size: 14px;
+  width: 500px;
+  height: 140px;
+  line-height: 20px
 }
 .img3-block1__artists--social {
-  margin-top: 10px;
+  width: 200px;
+  display: flex;
+  align-content: space-between;
+}
+.img3-block1__artists--social div {
+  margin-right: 30px;
+}
+.img3-block1__artists--social a {
+  font-size: 24px;
+  color: #888888;
 }
 .social-artists__1>img {
   width: 20px;
@@ -214,11 +225,54 @@ body {
   height: auto;
 }
 /*artists*/
+/*Testmonials*/
 .center__block4 {
   position: relative;
-  height: 350px;
+  height: 600px;
   z-index: 1000;
 }
+.img4-block1 {
+  transform: skewY(3.6deg);
+  width: 970px;
+  height: 600px;
+  margin-top: 130px;
+}
+.img4-block1__Testimonials {
+  font-size: 48px;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.img4-block1__p {
+  font-family: great vibes;
+  font-size: 48px;
+  color: #888888;
+  text-align: center;
+}
+.img4-block1__Lorraine {
+  font-size: 15px;
+  text-align: center;
+  color: #888888
+}
+.img4-block1__Book-an-Appointment {
+  margin-left: 1250px;
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 100;
+  width: 290px;
+  height: 55px;
+  background: #888888;
+  color: #fff;
+  border: 1px solid #fff;
+  z-index: 1103;
+
+
+}
+/*Testmonials*/
 .center__block5 {
   position: relative;
   height: 690px;
