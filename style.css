@@ -255,7 +255,8 @@ body {
   text-align: center;
   color: #888888
 }
-.img4-block1__Book-an-Appointment {
+/*Testmonials*/
+.img5-block1__Book-an-Appointment {
   margin-left: 1250px;
   margin-top: -50px;
   display: flex;
@@ -268,16 +269,69 @@ body {
   background: #888888;
   color: #fff;
   border: 1px solid #fff;
-  z-index: 1103;
-
-
-}
-/*Testmonials*/
-.center__block5 {
   position: relative;
-  height: 690px;
-  z-index: 999;
+  z-index: 2000;
 }
+/*Gallery*/
+.center__block5 {
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  position: relative;
+  justify-content: center;
+  z-index: 1001;
+}
+.img5-block1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1170px;
+  height: 970px;
+  margin-top: 190px;
+}
+.img5-block1__gallery {
+  font-size: 48px;
+  font-weight: 200;
+  color: #191919;
+  text-align: left;
+}
+.img5-block1__p {
+  font-size: 15px;
+  color: #888888;
+}
+.img5-block1__img {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1170px;
+  height: 720px;
+}
+.img5-block1__img--img {
+  display: inline-block;
+  width: 270px;
+  height: 335px;
+}
+.img5_img1 {
+  background: url("gallery_img1.png");
+}
+.img5_img2 {
+  background: url("gallery_img2.png");
+}
+.img5-block1__img--img>i {
+  visibility: hidden;
+}
+.img5-block1__img--img:hover {
+  display: block;
+  opacity: 0.8;
+}
+.img5-block1__img--img>i:hover {
+  visibility: visible;
+  display: block;
+}
+/*Gallery*/
 .center__block6 {
   position: relative;
   height: 350px;
