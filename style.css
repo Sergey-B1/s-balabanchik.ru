@@ -105,7 +105,6 @@ body {
   margin-top: 10px;
   z-index: 999;
 }
-
 .wrapper2 {
   width: 1170px;
   height: 600px;
@@ -232,41 +231,37 @@ body {
   justify-content: space-between;
   width: 100%;
 }
-.img3-block2 div {
+.img3-block2__item {
   display: inline-block;
   width: 234px;
   height: 230px;
 }
-.img3-block2__img1 {
+.img3-block2__item--img1 {
   background: url("artists1.png");
 }
-.img3-block2__img2 {
+.img3-block2__item--img2 {
   background: url("artists2.png");
 }
-.img3-block2__img3 {
+.img3-block2__item--img3 {
   background: url("artists.png");
 }
-.img3-block2__img4 {
+.img3-block2__item--img4 {
   background: url("artists3.png");
 }
-.img3-block2__img5 {
+.img3-block2__item--img5 {
   background: url("artists4.png");
 }
 .img3-block2__img1-hover {
   display: none;
 }
-.img3-block2__img1:hover .img3-block2__img1-hover,
-.img3-block2__img2:hover .img3-block2__img1-hover,
-.img3-block2__img3:hover .img3-block2__img1-hover,
-.img3-block2__img4:hover .img3-block2__img1-hover,
-.img3-block2__img5:hover .img3-block2__img1-hover {
+.img3-block2__item:hover .img3-block2__img1-hover {
   font-size: 26px;
   font-family: great vibes;
   color: #dfdfdf;
   width: 100%;
   height: 100%;
   margin: 50px 40px;
-  opacity: 0.5;
+  display: block;
 }
 /*artists*/
 /*Testmonials*/
