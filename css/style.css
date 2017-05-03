@@ -105,6 +105,7 @@ body {
   margin-top: 10px;
   z-index: 999;
 }
+
 .wrapper2 {
   width: 1170px;
   height: 600px;
@@ -412,7 +413,6 @@ body {
   display: inline-block;
   width: 370px;
   height: 250px;
-  overflow: hidden;
 }
 .img6_img1 {
   background: url("blog_img1.png");
@@ -424,14 +424,14 @@ body {
   background: url("blog_img3.png");
 }
 .img6_img1__h1 {
-  width: 370px;
-  height: 250px;
+  height: 35px;
   color: #dfdfdf;
   background: #4e4e4e;
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 16px;
-  text-align: left;
+  text-align: center;
   padding-top: 15px;
+  margin-top: 200px;
 }
 /*BLOG*/
 /*CONTACT US*/
