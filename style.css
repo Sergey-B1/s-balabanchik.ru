@@ -375,6 +375,7 @@ body {
   margin: 120px;
 }
 .img5-block1__img--img:hover {
+  display: block;
   opacity: 0.5;
 }
 /*Gallery*/
