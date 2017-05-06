@@ -186,7 +186,7 @@ body {
 .img3-block1__artists {
   width: 600px;
   height: 440px;
-  margin-top: 50px
+  margin-top: 70px
 }
 .img3-block1__artists--h1 {
   font-size: 48px;
@@ -220,6 +220,10 @@ body {
   font-size: 24px;
   color: #8888ff;
 }
+.img3-block1__artists--right-block1 {
+  width: 600px;
+  height: auto;
+}
 .artists__slider-item--x1>img {
   width: 600px;
   height: auto;
@@ -228,29 +232,33 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-height: 230px;
+  position: absolute;
 }
 .artists__slider-item--x5 {
   display: inline-block;
-  position: relative;
-  z-index: 1;
+  width: 234px;
+  height: 250px;
 }
 .artists__slider-item--x5>img {
-  width: 100%;
-  height: 100%;
+  width: 234px;
+  height: 250px;
 }
 .artists__slider-info {
-  display: none;
-}
-.artists__slider-item--x5:hover .artists__slider-info {
   font-size: 26px;
   font-family: great vibes;
   color: #dfdfdf;
+  display: block;
+  margin-top: 350px;
+  padding: 40px;
   width: 100%;
   height: 100%;
-  margin: -25px 40px 30px 40px;
-  display: block;
-  z-index: 2;
+  position: absolute;
+}
+.artists__slider-item--x5:hover .artists__slider-info {
+  transform: translateY(-100%);
+}
+.artists__slider-item--x5:hover {
+  opacity: 0.8;
 }
 /*artists*/
 /*Testmonials*/
@@ -342,12 +350,6 @@ body {
   width: 270px;
   height: 335px;
 }
-.img5_img1 {
-  background: url("../../gallery_img1.png");
-}
-.img5_img2 {
-  background: url("../../gallery_img2.png");
-}
 .img5-block1__img--img>i {
   font-size: 50px;
   margin: 120px;
@@ -360,7 +362,6 @@ body {
   margin: 120px;
 }
 .img5-block1__img--img:hover {
-  display: block;
   opacity: 0.5;
 }
 /*Gallery*/
